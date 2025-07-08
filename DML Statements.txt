@@ -1,0 +1,20 @@
+DML Statements:
+
+INSERT:
+
+INSERT INTO student Values ("kalai",20,"Software Developer")
+
+
+UPDATE:
+SET SQL_SAFE_UPDATES=0;
+Update student set department='software developer' where age="20";
+SET SQL_SAFE_UPDATES=1;
+SELECT * FROM student
+
+
+Delete:
+SET SQL_SAFE_UPDATES = 0;
+
+DELETE FROM student WHERE name = "Kalai";
+
+SET SQL_SAFE_UPDATES = 1;
